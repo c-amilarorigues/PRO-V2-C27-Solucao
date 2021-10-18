@@ -76,17 +76,17 @@ function draw() {
     }
   }
 
-  // Title
+  // Título
   fill("#FFFF");
   textAlign("center");
   textSize(40);
-  text("EPIC ARCHERY", width / 2, 100);
+  text("ARQUEIRO ÉPICO", width / 2, 100);
 
-  // Arrow Count
+  // Contagem de Flechas
   fill("#FFFF");
   textAlign("center");
   textSize(30);
-  text("Remaining Arrows : " + numberOfArrows, 200, 100);
+  text("Flechas Restantes: " + numberOfArrows, 200, 100);
 }
 
 function keyPressed() {
